@@ -188,6 +188,7 @@ func getMapping(datum analytics.AnalyticsRecord, extendedStatistics bool) map[st
 		"response_code":   record.ResponseCode,
 		"ip_address":      record.IPAddress,
 		"api_key":         record.APIKey,
+		"alias":           record.Alias,
 		"api_version":     record.APIVersion,
 		"api_name":        record.APIName,
 		"api_id":          record.APIID,
