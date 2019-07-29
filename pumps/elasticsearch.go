@@ -195,6 +195,7 @@ func getMapping(datum analytics.AnalyticsRecord, extendedStatistics bool) map[st
 		"org_id":          record.OrgID,
 		"oauth_id":        record.OauthID,
 		"request_time_ms": record.RequestTime,
+		"raw_request":     record.RawRequest,
 	}
 
 	if extendedStatistics {
